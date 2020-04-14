@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:  #966432;
+  background-color: rgba(255, 228, 225, 0.379);
+  font-weight: bolder;
+}
+p{
+  font-size: 20px;
+}
+#box{
+  width: 450px;
+  height: 350px;
+  background-color: rgba(255, 192, 203, 0.756);
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 1px solid burlywood;
+  box-shadow: 2px 3px rgb(244, 177, 177);
+}
+#bx{
+  width: 350px;
+  height: 200px;
+  background-color:snow;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: 1px solid gainsboro;
+  margin-top: 25px;
+}
+#re{
+  color: lightcoral;
+  font-size: 50px;
+  padding-top: 60px;
+}
+#aite{
+  padding-top: 30px;
+  color: rgba(128, 128, 128, 0.625);
+  font-size: 25px;
+}
