@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h2>キーボード</h2>
-  <p> グーは1 チョキは2 パーは3 を入力してください。</p>
-  <div id="box">
-    <div id="bx">
-      <div id="re"></div>
+  <head>
+    <meta charset="utf-8">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <section>
+        <div id="mi"></div>
+      </section>
+      <div id="result">数字(60秒以内)を入力してでSTOPを押してね</div>
+
+    <div class="container">
+      <div id="timer">00:00</div>
+      <div class="buttons">
+        <div id="start" class="btn">start</div>
+        <div id="stop" class="btn">stop</div>
+        <div id="reset" class="btn">reset</div>
+      </div>
     </div>
-    
-    <div id="aite"></div>
-  </div>
-  <script src="main.js"></script>
-</body>
-</html>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>  
